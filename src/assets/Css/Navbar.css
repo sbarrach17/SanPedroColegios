@@ -1,0 +1,10 @@
+.active {
+    color: gold;
+    /* text-decoration: underline; */
+}
+.logo{
+    width: 300px;
+}
+.navbar{
+    background-color: rgb(13, 9, 50);
+}

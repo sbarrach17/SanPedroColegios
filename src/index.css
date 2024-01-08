@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap");
+
+/* font-family: 'Open Sans', sans-serif; */
+* {
+    font-family: "Open Sans", sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    /* background-image: url("../img/fondo5.jpg"); */
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h4,
+h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: italic;
+}
+h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    font-style: italic;
+}
+a {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    margin-right: 10px;
+}
+p {
+    font-weight: 400;
+    font-style: italic;
+}
+.list-group-item {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    border: rgb(48, 194, 213) 5px double;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+.card:hover {
+    box-shadow: 2px 2px 10px rgba(0, 2, 138, 0.2);
+}
+
+.boxIcon {
+    width: 30px;
+    height: 30px;
+}
+.icon {
+    font-size: 24px;
+}
+
+.buttons {
+    gap: 10px;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+.textHome{
+    margin-top: 3rem;
+}
+
+.news {
+    padding: 1rem;
+}
+.enlarged {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+
+.home-background {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: brightness(50%);
+    height: 100vh;
+    object-fit: fill;
+    display: flex;
+    justify-content: center;
+}
+/* .home-container{
+width: 100%;
+height: 100%;
+} */
+.side{
+    background-color: slategray;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    font-style: italic;
+    text-align: center;
+}
+.btnContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:center ;
+    margin-top: 10rem;
+}
+.btn-group{
+    gap: 10px;
+}
+.main{
+    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 500px) {
+    .schoolDes {
+        margin: 1rem;
+    }
+    .side{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 12px;
+    }
+    .btn-group{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .icon {
+        font-size: 14px;
+    }
+    .nav-item{
+        font-size: 14px;
+    }
+    .textHome{
+        margin-top: 0;
+    }
+    .btn-group{
+        margin-top: 1rem;
+    }
+}
+@media screen and (max-width: 700px) {
+    .home-background {
+        object-fit: fill;
+    }
+    .initContent {
+        margin: 1rem;
+    }
+    .schoolDes {
+        margin: 1rem;
+    }
+    .initContent {
+        padding-top: 6rem;
+    }
+    .btn-group{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .btnContainer{
+     margin-top: 4rem;
+    }
+    .side{
+        font-size: 12px;
+        text-align: center;
+    }
+    .icon {
+        font-size: 16px;
+    }
+    .nav-item{
+        font-size: 16px;
+    }
+}

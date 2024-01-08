@@ -5,6 +5,7 @@ const ContactPage = () => {
         <div className="text-center mt-5 fs">
             <h2 className="fs-1 titleContact text-dark">Cuentanos, ¿En que te podemos ayudar?</h2>
             <Contact></Contact>
+            {/* <Map/> */}
         </div>
     );
 };

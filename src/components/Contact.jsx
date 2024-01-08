@@ -1,71 +1,106 @@
 import "../assets/Css/Contact.css";
 import { IoLogoWhatsapp } from "react-icons/io";
-// import { MdLocationOn } from "react-icons/md";
+import { MdLocationOn } from "react-icons/md";
 
 const Contact = () => {
-    const handleEnviar = () => {
-        alert(`Recibimos tu mensaje y ya estamos trabajando en ello`);
-    };
-
     return (
-        <div className="container ">
-            <div className="row justify-content-center">
-                <div className="col-md-4">
-                    <div className="mb-3">
-                        <label
-                            htmlFor="exampleFormControlInput1"
-                            className="form-label fs-5 mt-3 titleContact"
-                        >
-                            Correo Electrónico
-                        </label>
-                        <input
-                            type="email"
-                            className="form-control"
-                            id="exampleFormControlInput1"
-                            placeholder="TuCorreo@ejemplo.com"
-                        />
-                    </div>
+        <div className="container">
+            <div className="mapas">
+                <div className="boxContact">
+                    <img
+                        className="mapImg"
+                        src="./img/emblemaVG.png"
+                        alt="Ubicación Colegio Valle Grande"
+                    />
+                    <address className="">
+                        <div className="redes">
+                    <a href="https://www.instagram.com/colegio_sanpedro_vg/" target="blank">
+                <img width="35" height="35" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram-new"/>
+                </a>
+                <a href="https://www.facebook.com/p/Colegio-San-Pedro-Valle-Grande-100031873854523/" target="blank">
+                <img width="35" height="35" src="https://img.icons8.com/color/48/facebook.png" alt="facebook"/>
+                </a>
+                </div>
+                        <p className="add">
+                            <IoLogoWhatsapp className="icon text-success" />{" "}
+                            +56988277914
+                        </p>
+                        <p>
+                            <MdLocationOn className="location text-danger" />
+                            Av. Gral. San Martin Norte. 0245, Lampa
+                        </p>
+                    </address>
+                </div>
+                <div className="mapImgContainer">
+                    <img
+                        className="mapImg"
+                        src="./img/emblemaPuda.png"
+                        alt="Ubicación Colegio Valle Grande"
+                    />
+                    <address className="">
+                    <a href="https://www.instagram.com/somoscspp/?hl=es" target="blank">
+                <img width="35" height="35" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram-new"/>
+                </a>
+                <a href="https://www.facebook.com/p/Colegio-San-Pedro-Pudahuel-100064718047868/?locale=es_" target="blank">
+                <img width="35" height="35" src="https://img.icons8.com/color/48/facebook.png" alt="facebook"/>
+                </a>
+                        <p className="add">
+                            <IoLogoWhatsapp className="icon text-success" />
+                            +56226433315
+                        </p>
+                        <p>
+                            <MdLocationOn className="location text-danger" />
+                            San Pablo 8859, Pudahuel
+                        </p>
+                    </address>
+                </div>
+                <div className="mapImgContainer">
+                    <img
+                        className="mapImg"
+                        src="./img/emblemaPoli.png"
+                        alt="Ubicación Colegio Valle Grande"
+                    />
+                    <address className="">
+                    <a href="https://www.instagram.com/polivalentespoficial/?hl=es" target="blank">
+                <img width="35" height="35" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram-new"/>
+                </a>
+                <a href="https://www.facebook.com/polivalente2017/?locale=es_LA" target="blank">
+                <img width="35" height="35" src="https://img.icons8.com/color/48/facebook.png" alt="facebook"/>
+                </a>
+                        <p className="add">
+                            <IoLogoWhatsapp className="icon text-success" />
+                            +56965958362
+                        </p>
+                        <p>
+                            <MdLocationOn className="location text-danger" />
+                            Calle Miriam 105/Avenida Lo Marcoleta , Quilicura
+                        </p>
+                    </address>
+                </div>
+                <div className="mapImgContainer">
+                    <img
+                        className="mapImg"
+                        src="./img/emblemaQuili.png"
+                        alt="Ubicación Colegio Valle Grande"
+                    />
+                    <address className="">
+                    <a href="https://www.instagram.com/sanpedroquilicuraoficial/" target="blank">
+                <img width="35" height="35" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram-new"/>
+                </a>
+                <a href="https://www.facebook.com/sanpedroquilicuraoficial?mibextid=nwBsNb" target="blank">
+                <img width="35" height="35" src="https://img.icons8.com/color/48/facebook.png" alt="facebook"/>
+                </a>
+                        <p className="add">
+                            <IoLogoWhatsapp className="icon text-success" />
+                            +56226070412
+                        </p>
+                        <p>
+                            <MdLocationOn className="location text-danger" />
+                            Avenida Lo Marcoleta 165, Quilicura
+                        </p>
+                    </address>
                 </div>
             </div>
-            <div className="row justify-content-center">
-                <div className="col-md-6">
-                    <div className="mb-4">
-                        <label
-                            htmlFor="exampleFormControlTextarea1"
-                            className="form-label fs-5 titleContact"
-                        >
-                            Déjanos tu comentario
-                        </label>
-                        <textarea
-                            className="form-control"
-                            id="exampleFormControlTextarea1"
-                            rows="3"
-                        ></textarea>
-                    </div>
-                </div>
-            </div>
-
-            <button
-                type="button"
-                className="btn btn-danger"
-                onClick={handleEnviar}
-            >
-                Enviar
-            </button>
-            <address className="pt-3">
-                <p className="add">
-                    <IoLogoWhatsapp className="icon text-success" />+56988277914, San Pedro Valle Grande
-                </p>
-                <p className="add">
-                    <IoLogoWhatsapp className="icon text-success" />+56226433315, San Pedro Pudahuel
-                </p> 
-                <p className="add">
-                    <IoLogoWhatsapp className="icon text-success" />+56965958362 , San Pedro Polivalente
-                </p> 
-                <p className="add">
-                    <IoLogoWhatsapp className="icon text-success" />+56226070412 , San Pedro Quilicura
-                </p>                             
-            </address>
         </div>
     );
 };

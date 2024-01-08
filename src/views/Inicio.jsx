@@ -107,7 +107,7 @@ const Inicio = () => {
                     Quilicura
                 </a>
             </ul>
-            <button type="button" className="btn btn-outline-success ">
+            <button type="button" className="btn btn-outline-info  ">
                 <a className="fw-medium" href="./doc/Becas.pdf" download="Becas.pdf">
                     Becas 2024
                 </a>

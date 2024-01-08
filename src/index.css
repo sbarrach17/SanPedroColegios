@@ -176,6 +176,11 @@ p {
         text-align: center;
         margin: 30px;
     }
+    .btnGroup{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     .btnContainer {
         margin-top: 4rem;
     }

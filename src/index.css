@@ -89,10 +89,10 @@ p {
     display: flex;
     justify-content: center;
 }
-/* .home-container{
+.home-container{
 width: 100%;
 height: 100%;
-} */
+}
 .side{
     background-color: slategray;
     display: flex;
@@ -117,6 +117,13 @@ height: 100%;
   display: flex;
   flex-direction: column;
 }
+.btnNews{
+}
+
+
+/* RESPONSIVE */
+
+
 @media screen and (max-width: 500px) {
     .schoolDes {
         margin: 1rem;
@@ -145,6 +152,14 @@ height: 100%;
     }
     .btn-group{
         margin-top: 1rem;
+    }
+    .btnNews{
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+    }
+    .btnGroup{
+        display: flex;justify-content: center;
     }
 }
 @media screen and (max-width: 700px) {

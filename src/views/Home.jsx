@@ -5,10 +5,10 @@ import Inicio from "./Inicio";
 const Home = () => {
     return (
         <>
-                {/* <div className="home-container"  > */}
+                <div className="home-container"  >
                     <img
                         className="home-background img-fluid"
-                        src="./img/logocolegio.jpeg"
+                        src="./img/Logox4.jpeg"
                         alt="Foto Portada"
                     />
                     <div className="textHome">
@@ -17,7 +17,7 @@ const Home = () => {
                         "Forjando futuros brillantes, hoy y siempre."
                     </p>
                     </div>
-                {/* </div> */}
+                </div>
             <section className="btnContainer">
                 <Inicio />
             </section>

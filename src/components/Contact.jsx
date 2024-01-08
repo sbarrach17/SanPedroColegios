@@ -54,8 +54,17 @@ const Contact = () => {
             </button>
             <address className="pt-3">
                 <p className="add">
-                    <IoLogoWhatsapp className="icon text-success" /> +56988277914 , San Pedro Valle Grande
-                </p>                            
+                    <IoLogoWhatsapp className="icon text-success" />+56988277914, San Pedro Valle Grande
+                </p>
+                <p className="add">
+                    <IoLogoWhatsapp className="icon text-success" />+56226433315, San Pedro Pudahuel
+                </p> 
+                <p className="add">
+                    <IoLogoWhatsapp className="icon text-success" />+56965958362 , San Pedro Polivalente
+                </p> 
+                <p className="add">
+                    <IoLogoWhatsapp className="icon text-success" />+56226070412 , San Pedro Quilicura
+                </p>                             
             </address>
         </div>
     );

@@ -3,7 +3,7 @@ const Inicio = () => {
         <div className="btn-group dropup-center dropup">
             <button
                 type="button"
-                className="btn btn-primary dropdown-toggle"
+                className="btn btn-outline-primary dropdown-toggle text-white fw-medium"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
             >
@@ -41,7 +41,7 @@ const Inicio = () => {
             </ul>
             <button
                 type="button"
-                className="btn btn-warning dropdown-toggle text-white"
+                className="btn btn-outline-warning dropdown-toggle text-white fw-medium"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
             >
@@ -79,7 +79,7 @@ const Inicio = () => {
             </ul>
             <button
                 type="button"
-                className="btn btn-danger dropdown-toggle text-white"
+                className="btn btn-outline-danger dropdown-toggle text-white fw-medium"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
             >
@@ -100,27 +100,15 @@ const Inicio = () => {
                 >
                     Pudahuel
                 </a>
-                <a
-                    className="dropdown-item"
-                    href=""
-                    download=""
-                >
+                <a className="dropdown-item" href="" download="">
                     Polivalente
                 </a>
-                <a
-                    className="dropdown-item"
-                    href=""
-                    download=""
-                >
+                <a className="dropdown-item" href="" download="">
                     Quilicura
                 </a>
             </ul>
-            <button
-                type="button"
-                className="btn btn-success"
-                
-            >
-                <a href="./doc/Becas.pdf" download="Becas.pdf">
+            <button type="button" className="btn btn-outline-success ">
+                <a className="fw-medium" href="./doc/Becas.pdf" download="Becas.pdf">
                     Becas 2024
                 </a>
             </button>

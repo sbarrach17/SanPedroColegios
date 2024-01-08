@@ -117,7 +117,6 @@ p {
     flex-direction: column;
 }
 
-
 /* RESPONSIVE */
 
 @media screen and (max-width: 500px) {
@@ -133,7 +132,7 @@ p {
     }
     .btn-group {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap-reverse;
         justify-content: center;
         text-align: center;
     }
@@ -154,9 +153,8 @@ p {
         flex-direction: column;
         width: 150px;
     }
-    .btnGroup {
-        display: flex;
-        justify-content: center;
+    .textHome {
+        margin-top: 5px;
     }
 }
 @media screen and (max-width: 700px) {
@@ -174,9 +172,9 @@ p {
     }
     .btn-group {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        flex-wrap: wrap-reverse;
         text-align: center;
+        margin: 30px;
     }
     .btnContainer {
         margin-top: 4rem;
